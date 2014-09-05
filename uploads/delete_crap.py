@@ -21,10 +21,8 @@ def deleteImages(list):
                 continue  # skip the file
             if file in list:
                 print 'keeping ---', file
-                #print len(path)*'keeping ---', file
             else:
                 print 'deleting ---', file
-                #print len(path)*'deleting ---', file
                 os.remove(path)
                 
             
